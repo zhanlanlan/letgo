@@ -6,7 +6,7 @@ import (
 )
 
 func TestMaxArea(t *testing.T) {
-	a := []int{1,8,6,2,5,4,8,3,7}
+	a := []int{1, 2, 4, 3}
 
 	log.Println(maxArea(a))
 }
