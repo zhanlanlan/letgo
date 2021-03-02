@@ -1,6 +1,9 @@
 package main
 
-import "testing"
+import (
+	"fmt"
+	"testing"
+)
 
 func TestDeleteDuplicates(t *testing.T) {
 	var root *ListNode
@@ -19,4 +22,7 @@ func TestDeleteDuplicates(t *testing.T) {
 
 	root = deleteDuplicates(root)
 	PrintListNode(root)
+
+
+	fmt.Println(rune(100))
 }
